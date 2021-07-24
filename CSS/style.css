@@ -33,6 +33,10 @@
     text-decoration: none;
 }
 
+.services-container h1{
+    font-size: 28pt;
+}
+
 .services{
     border-radius: 10px;
     margin: 10px;
@@ -215,6 +219,22 @@ footer{
     border-radius: 10px;
     box-shadow: 1px 1px 10px gray;
     margin: 10px;
+}
+
+.solution{
+    padding: 10px 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.solution i{
+    font-size: 40pt;
+}
+
+.clients div{
+    padding: 20px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
