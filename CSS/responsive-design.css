@@ -57,4 +57,5 @@ body{
     .t-center {text-align: center;}
     .t-right {text-align: right;}
     .t-left {text-align: left;}
+    .t-gray{ color: rgb(77, 77, 77);}
 }
