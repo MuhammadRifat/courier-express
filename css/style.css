@@ -1,0 +1,63 @@
+.top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.top-container h1{
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.top-container small{
+        margin-left: 90px;
+}
+.top-container small span{
+    color: gray;
+}
+
+.link-section, .company-site-container, .city-zone-container, .form-details-fifth, .next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.company-site-container{
+    margin-bottom: 25px;
+}
+
+.company-info, .account-info, .payment-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.form-details-title{
+    text-align: center;
+}
+.form-details form span{
+    color: red;
+}
+.form-details-first, .form-details-second, .form-details-third, .form-details-fourth, .form-details-fifth, .next-button{
+    margin-left: 50px;
+}
+input, select{
+    margin-top: 5px;
+}
+
+button{
+    background-color: slateblue;
+    font-size: 20px;
+}
+button a{
+    color: white;
+}

@@ -1,0 +1,17 @@
+.payment-method, .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    margin-left: 450px;
+}
+.back-button button{
+    background-color: black;
+}
+.submit-button button{
+    color: white;
+}
+.submit-button{
+    margin-left: 30px;
+}

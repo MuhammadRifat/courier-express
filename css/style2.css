@@ -1,0 +1,24 @@
+.name-email-container, .form-details-third, .password-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.password, .confirm-password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.back-button button{
+    background-color: black;
+}
+.back-button, .next-button{
+    margin-left: 50px;
+}
