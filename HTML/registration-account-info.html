@@ -31,39 +31,27 @@
         </div>
     </div>
 
-    <!-- Booking Form -->
+    <!-- Registration Form -->
     <section class="row booking-container t-gray">
         <div class="col-lg-6 booking-form">
-            <div class="service-name" style="color: white; background-color: rgb(0, 65, 0); border-radius: 7px;">Booking</div>
-            <h1>Recipient Details</h1>
-            <form action="./parcel-details.html">
-                <label for="rname">Recipient Name <span>*</span></label>
-                <input type="text" name="rname" id="rname" placeholder="Enter Recipient name" required>
+            <div class="service-name" style="color: white; background-color: rgb(0, 65, 0); border-radius: 7px;">
+                Registration
+            </div>
+            <h1>Account Info</h1>
+            <form action="./registration-account-info.html">
+                <label for="Payment-method">Payment Method <span>*</span></label>
+                <select name="payment-method" id="payment-method" required>
+                    <option disabled selected>Select your payment method</option>
+                    <option value="Bkash">Bkash</option>
+                    <option value="Rocket">Rocket</option>
+                    <option value="Nagad">Nagad</option>
+                </select>
 
-                <label for="mobile">Recipient Mobile No. <span>*</span></label>
-                <input type="number" name="mobile" id="mobile" placeholder="Enter mobile no" required>
-
-                <label for="email">Recipient Email <span>*</span></label>
-                <input type="email" name="email" id="email" placeholder="Enter email address" required>
-
-                <label for="district">District <span>*</span></label>
-                <input type="text" name="district" id="district" placeholder="Enter district" required>
-
-                <label for="narea">Nearest Area <span>*</span></label>
-                <input type="text" name="narea" id="narea" placeholder="Enter nearest area" required>
-
-                <label for="postcode">Post Code <span>*</span></label>
-                <input type="number" name="postcode" id="postcode" placeholder="Enter post code" required>
-
-                <label for="saddress">Recipient Address <span>*</span></label><br>
-                <textarea name="saddress" id="saddress" cols="30" rows="4" placeholder="Enter address" required></textarea>
-                
-                <label for="instruction">Instruction</label><br>
-                <textarea name="instruction" id="instruction" cols="30" rows="3" placeholder="Enter instruction"></textarea>
+                <input style="width: 15px;" type="checkbox" name="checkbox" id="checkbox" required>Accept our <a href="#" style="text-decoration:none;">terms and conditions</a>
 
                 <div style="text-align: center; margin: 15px">
-                    <a class=" btn" href="./booking.html">Previous</a>
-                    <button class="btn" type="submit">Continue</button>
+                    <a class="btn" href="./registration-entrepreneur-info.html">Previous</a>
+                    <button class="btn" type="submit">Submit</button>
                 </div>
             </form>
         </div>
@@ -128,14 +116,15 @@
 
         <div class="copyright">
             <div class="social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://instagram.com/" class="fa fa-instagram"></a>
-                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
             </div>
             <small>Copyright &copy; 2021 Courier Express. All rights reserved.</small>
         </div>
 
     </footer>
+
 </body>
 
 </html>

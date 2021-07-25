@@ -31,41 +31,25 @@
         </div>
     </div>
 
-    <!-- Booking Form -->
+    <!-- Login Form -->
     <section class="row booking-container t-gray">
         <div class="col-lg-6 booking-form">
-            <div class="service-name" style="color: white; background-color: rgb(0, 65, 0); border-radius: 7px;">Booking</div>
-            <h1>Recipient Details</h1>
-            <form action="./parcel-details.html">
-                <label for="rname">Recipient Name <span>*</span></label>
-                <input type="text" name="rname" id="rname" placeholder="Enter Recipient name" required>
-
-                <label for="mobile">Recipient Mobile No. <span>*</span></label>
-                <input type="number" name="mobile" id="mobile" placeholder="Enter mobile no" required>
-
-                <label for="email">Recipient Email <span>*</span></label>
-                <input type="email" name="email" id="email" placeholder="Enter email address" required>
-
-                <label for="district">District <span>*</span></label>
-                <input type="text" name="district" id="district" placeholder="Enter district" required>
-
-                <label for="narea">Nearest Area <span>*</span></label>
-                <input type="text" name="narea" id="narea" placeholder="Enter nearest area" required>
-
-                <label for="postcode">Post Code <span>*</span></label>
-                <input type="number" name="postcode" id="postcode" placeholder="Enter post code" required>
-
-                <label for="saddress">Recipient Address <span>*</span></label><br>
-                <textarea name="saddress" id="saddress" cols="30" rows="4" placeholder="Enter address" required></textarea>
+            <div class="service-name" style="color: white; background-color: rgb(0, 65, 0); border-radius: 7px;">
+                Login
+            </div>
+            <h1>Merchant/Corporate</h1>
+            <form action="">
+                <input type="email" name="email" placeholder="Email" id="email" required>
+                <input type="password" name="password" placeholder="Password" id="password" required>
                 
-                <label for="instruction">Instruction</label><br>
-                <textarea name="instruction" id="instruction" cols="30" rows="3" placeholder="Enter instruction"></textarea>
+                <input type="checkbox" style="width: 15px;" id="remember" name="remember">
+                <label for="remember">Remember me</label>
 
-                <div style="text-align: center; margin: 15px">
-                    <a class=" btn" href="./booking.html">Previous</a>
-                    <button class="btn" type="submit">Continue</button>
+                <div style="text-align: center;">
+                    <button class="btn" type="submit">Login</button>
                 </div>
             </form>
+            <a style="text-decoration: none; color: darkgreen;" href="./forgot-password.html"><i class="fa fa-lock"></i> Forgot Password</a>
         </div>
     </section>
 
@@ -128,14 +112,15 @@
 
         <div class="copyright">
             <div class="social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                <a href="https://instagram.com/" class="fa fa-instagram"></a>
-                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
             </div>
             <small>Copyright &copy; 2021 Courier Express. All rights reserved.</small>
         </div>
 
     </footer>
+
 </body>
 
 </html>
