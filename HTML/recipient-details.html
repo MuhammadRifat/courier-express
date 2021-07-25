@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Express</title>
+    <link rel="stylesheet" href="../CSS/responsive-design.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Navbar Part -->
+    <div class="row navbar-container">
+        <div class="col-lg-4">
+            <h2 class="heading">Courier Express</h2>
+        </div>
+        <div class="col-lg-8">
+            <div class="navbar">
+                <a href="./index.html" class="link">Home</a>
+                <a href="./tracking.html" class="link">Tracking</a>
+                <a href="./services.html" class="link">Services</a>
+                <a href="./contact.html" class="link">Contact</a>
+                <a href="./registration.html" class="link">Registration</a>
+                <a href="./login.html" class="link">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Form -->
+    <section class="row booking-container t-gray">
+        <div class="col-lg-6 booking-form">
+            <div class="service-name" style="color: white; background-color: rgb(0, 65, 0); border-radius: 7px;">Booking</div>
+            <h1>Recipient Details</h1>
+            <form>
+                <label for="rname">Recipient Name <span>*</span></label>
+                <input type="text" name="rname" id="rname" placeholder="Enter Recipient name" required>
+
+                <label for="mobile">Recipient Mobile No. <span>*</span></label>
+                <input type="number" name="mobile" id="mobile" placeholder="Enter mobile no" required>
+
+                <label for="email">Recipient Email <span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="Enter email address" required>
+
+                <label for="district">District <span>*</span></label>
+                <input type="text" name="district" id="district" placeholder="Enter district" required>
+
+                <label for="narea">Nearest Area <span>*</span></label>
+                <input type="text" name="narea" id="narea" placeholder="Enter nearest area" required>
+
+                <label for="postcode">Post Code <span>*</span></label>
+                <input type="number" name="postcode" id="postcode" placeholder="Enter post code" required>
+
+                <label for="saddress">Recipient Address <span>*</span></label><br>
+                <textarea name="saddress" id="saddress" cols="30" rows="4" placeholder="Enter address"></textarea>
+                
+                <label for="instruction">Instruction <span>*</span></label><br>
+                <textarea name="instruction" id="instruction" cols="30" rows="3" placeholder="Enter instruction"></textarea>
+
+                <div style="text-align: center; margin: 15px">
+                    <a class=" btn" href="./booking.html">Previous</a>
+                    <a class=" btn" href="./parcel-details.html">Continue</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Part -->
+    <footer>
+        <img src="../images/Shape_06.png" style="width: 100%" alt="" />
+        <div class="row footer-container">
+            <div class="col-lg-4">
+                <h2>About Company</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="./tracking.html">Tracking</a>
+                        <a href="./coverage-map.html">Coverage Map</a>
+                        <a href="./about.html">Our Story</a>
+                        <a href="#">Franchise</a>
+                        <a href="./blog.html">Blog</a>
+                        <a href="#">Media</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#">Career</a>
+                        <a href="#">FaQs</a>
+                        <a href="#">API & Media kits</a>
+                        <a href="./contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <h2>Services</h2>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="./person-2-person-delivery.html">Person 2 Person Delivery (P2P)</a>
+                        <a href="./merchant-delivery-service.html">Merchant Delivery Service</a>
+                        <a href="./air-parcel.html">Air Parcel</a>
+                        <a href="./corporate-and-sme-delivery.html">Corporate & SME Delivery</a>
+                        <a href="./line-haul.html">Line Haul</a>
+                        <a href="./warehouse.html">Warehouse</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="./fulfillment.html">Fulfillment</a>
+                        <a href="./call-center.html">Call Center</a>
+                        <a href="./bkash-on-delivery.html">bKash on Delivery (BOD)</a>
+                        <a href="./parcel-pick-and-drop-service.html">Parcel Pick & Drop Service</a>
+                        <a href="#">Booster SMS</a>
+                        <a href="#">Mobile Top-Up</a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="#">Packaging Services</a>
+                        <a href="#">Fraud Detection Service</a>
+                        <a href="#">Facebook Sales Automation</a>
+                        <a href="#">Fragile & Liquid Item Delivery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="social">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+            </div>
+            <small>Copyright &copy; 2021 Courier Express. All rights reserved.</small>
+        </div>
+
+    </footer>
+</body>
+
+</html>

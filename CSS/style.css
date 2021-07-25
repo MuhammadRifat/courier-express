@@ -238,6 +238,46 @@ footer{
     margin: 20px;
 }
 
+.booking-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.booking-form{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(241, 240, 240);
+    box-shadow: 1px 1px 10px gray;
+}
+
+.booking-form input, textarea, select{
+    width: 98%;
+    font-size: 13pt;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    margin-bottom: 15px;
+}
+
+.booking-form span{
+    color: red;
+    font-size: 15pt;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 13pt;
+    background-color: rgb(0, 65, 0);
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) {
     .navbar{
         justify-content: center;
